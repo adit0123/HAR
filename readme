@@ -1,0 +1,49 @@
+# Human Activity Recognition Project
+
+## Overview
+
+This project focuses on developing a model for Human Activity Recognition (HAR) utilizing TensorFlow with a combination of Convolutional Neural Networks (CNN) and Long Short-Term Memory (LSTM) networks. The goal is to accurately identify basic human actions such as running, jogging, walking, clapping, hand-waving, and boxing.
+
+## Dataset
+
+The project uses the UCF50 dataset, which consists of raw data capturing various activities. The dataset comprises 50 activity categories. On average, there are 133 videos per action category, with each video containing 199 frames. The frames have dimensions of 320x240 pixels, and the videos have an average frame rate of 26 frames per second.
+
+## Tasks
+
+1. **Data Pre-processing:**
+   - Download, extract, and pre-process the UCF50 video dataset.
+   - Divide the dataset into training and testing data.
+   - Implement data pre-processing functions, including frame extraction, resizing, normalization, and sequence length adjustment.
+
+2. **Model Development:**
+   - Build a model combining CNN and LSTM layers for effective human activity recognition.
+   - Train the model on the pre-processed training data.
+
+3. **Testing and Evaluation:**
+   - Test the trained model on the designated test data.
+   - Evaluate the model's performance in terms of accuracy.
+
+## References
+
+Research paper:- J. Donahue et al., "Long-Term Recurrent Convolutional Networks for Visual Recognition and Description," in IEEE Transactions on Pattern Analysis and Machine Intelligence, vol. 39, no. 4, pp. 677-691, 1 April 2017, doi: 10.1109/TPAMI.2016.2599174.
+Dataset :- https://www.crcv.ucf.edu/data/UCF50.rar
+github repository:- https://github.com/adit0123/HAR
+
+## Requirements
+
+- Python (version 3.11.4)
+- TensorFlow (version 2.14.0)
+- cv2 
+- math
+- datetime
+- collections
+
+## Instructions
+
+1. Install the dependencies(requirements)
+2. Clone the repository
+3. unzip the  MLproject.zip(code for training model)
+3. Run app.ipynb(code for running LRCN model)
+4. Run appConvLstm.ipynd(code for running LSTM model)
+
+
